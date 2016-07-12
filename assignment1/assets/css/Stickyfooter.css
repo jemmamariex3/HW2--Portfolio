@@ -1,0 +1,16 @@
+
+html, body{
+  position: relative;
+  min-height: 100%;
+  margin-left: none;
+  margin-right: none;
+}
+ #main_area{
+  /* Margin bottom by footer height */
+  margin-bottom: -30px;
+  min-height: 100%;
+}
+.footer, .push {
+  /* Set the fixed height of the footer here */
+  height: 30px;
+}
